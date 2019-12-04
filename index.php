@@ -2,15 +2,14 @@
 <html lang="fr" >
   <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>part4ex2</title>
   </head>
   <body>
-      <?php
-      function retourné ()
-      {
-          return "Chaine a retourner";
-      }
-      echo retourné ();
-      ?>
+    <?php
+    function uno($dos = 'Un') {
+        return ($dos);
+    }
+    echo uno()
+    ?>
   </body>
 </html>
